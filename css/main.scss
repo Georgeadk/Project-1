@@ -313,6 +313,10 @@ main {
         text-align: center;
     }
 
+    ul {
+        padding: 0;
+    }
+
     .left-col {
         width: 100%;
     }
@@ -392,8 +396,8 @@ main {
     }
 
     nav {
-        font-size: 2rem;
-        margin: 2em;
+        font-size: 1rem;
+        margin: 2em 0;
     }
 
 }
