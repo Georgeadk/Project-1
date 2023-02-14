@@ -257,6 +257,9 @@ main {
   }
 }
 @media (max-width: 700px) {
+  .wrapper {
+    margin: 1.5em;
+  }
   main {
     display: flex;
     flex-direction: column;
@@ -297,7 +300,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    height: 50em;
+    height: 35em;
   }
   .card1::before {
     position: absolute;
@@ -312,13 +315,13 @@ main {
   .card2 {
     grid-area: right;
     background-image: url(../images/clothing2.jpg);
-    height: 50em;
+    height: 35em;
     background-repeat: no-repeat;
   }
   .card3 {
     grid-area: bottom;
     background-image: url(../images/clothing3.jpg);
-    height: 50em;
+    height: 35em;
     background-repeat: no-repeat;
   }
   .cta-btns {
